@@ -129,15 +129,15 @@ uniform PRECISION float VSCANLINES;
 #else
 #define BEAM_PROFILE 0.0
 #define BEAM_MIN_WIDTH 0.68
-#define BEAM_MAX_WIDTH 1.0
-#define SCANLINES_STRENGTH 0.78
+#define BEAM_MAX_WIDTH 1.03
+#define SCANLINES_STRENGTH 0.68
 #define COLOR_BOOST 1.0
 #define HFILTER_SHARPNESS 1.5
-#define PHOSPHOR_LAYOUT 1.0
-#define MASK_INTENSITY 0.13
+#define PHOSPHOR_LAYOUT 2.0
+#define MASK_INTENSITY 0.35
 #define CRT_ANTI_RINGING 1.0
 #define InputGamma 2.4
-#define OutputGamma 2.3
+#define OutputGamma 2.5
 #define VSCANLINES 0.0
 #endif
 // END PARAMETERS //
